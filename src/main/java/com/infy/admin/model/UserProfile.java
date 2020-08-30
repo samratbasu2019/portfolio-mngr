@@ -1,4 +1,4 @@
-package com.home.portfoliomanager.model;
+package com.infy.admin.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -9,7 +9,7 @@ import lombok.Setter;
 @Getter
 @Setter
 
-@Document(collection = "col_user")
+@Document(collection = "col_admin_user")
 public class UserProfile {
 	@Id
 	@Field(value = "_id")
@@ -23,8 +23,5 @@ public class UserProfile {
 	
 	@Field(value = "password")
 	private String password;
-	
-	@Field(value = "hasAgreed")
-	private String hasAgreed;
 	
 }

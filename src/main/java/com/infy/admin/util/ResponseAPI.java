@@ -1,4 +1,4 @@
-package com.home.portfoliomanager.util;
+package com.infy.admin.util;
 
 import lombok.Getter;
 import lombok.Setter;

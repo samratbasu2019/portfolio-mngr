@@ -1,4 +1,4 @@
-package com.home.portfoliomanager.pojo;
+package com.infy.admin.pojo;
 
 import org.springframework.data.mongodb.core.mapping.Field;
 
